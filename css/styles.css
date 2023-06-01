@@ -205,9 +205,23 @@ body {
 }
 .link-portfolio {
   color: var(--brand-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 58px;
 }
 .link-index {
   color: var(--brand-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 53px;
 }
 .link-contact-header {
   font-family: "Roboto";
@@ -576,5 +590,33 @@ figure {
 }
 .circle-bottom:hover,
 .circle-bottom:focus {
+  background-color: var(--brand-color);
+}
+.is-active {
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+}
+.is-active::after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  left: 15px;
+  top: 9px;
+  background-color: var(--brand-color);
+}
+.is-active-two {
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+}
+.is-active-two::after {
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 4px;
+  left: 15px;
+  top: 9px;
   background-color: var(--brand-color);
 }
