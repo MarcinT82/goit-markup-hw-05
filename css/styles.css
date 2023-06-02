@@ -344,9 +344,6 @@ body {
   justify-content: space-between;
   padding-left: 0;
 }
-.image {
-  padding: 10px;
-}
 .footer-container {
   margin: 0;
   padding: 0;
@@ -619,4 +616,19 @@ figure {
   left: 15px;
   top: 9px;
   background-color: var(--brand-color);
+}
+.image-label {
+  position: relative;
+}
+.label {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin: 0;
+  position: absolute;
+  top: 225px;
 }
