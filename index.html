@@ -88,7 +88,9 @@
           </div>
 
           <div class="blue-button">
-            <button class="button-order" type="button">Zamów usługę</button>
+            <button class="button-order" type="button" data-modal-open>
+              Zamów usługę
+            </button>
           </div>
         </div>
       </section>
@@ -713,6 +715,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal is-hidden" data-modal>
+      <div class="pop-up-window">
+        <button class="x-button" data-modal-close>X</button>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
