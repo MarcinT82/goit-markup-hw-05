@@ -54,6 +54,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
   padding: 10px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logotype-webstudio-header:hover {
   color: none;
@@ -178,6 +181,9 @@ body {
   width: 200px;
   border-radius: 4px;
   padding: 10px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-order:hover,
 .button-order:focus {
@@ -197,6 +203,9 @@ body {
 }
 .links {
   text-decoration: inherit;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links:hover,
@@ -244,6 +253,10 @@ body {
   cursor: pointer;
   border: none;
   padding: 10px;
+
+  transition-property: background-color, box-shadow, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-all {
   background: var(--less-white);
@@ -301,6 +314,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--white);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logotype-webstudio-footer:hover {
   color: none;
@@ -400,6 +416,9 @@ body {
   width: 370px;
   margin: 0;
   cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .items:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -412,6 +431,9 @@ body {
   margin-right: 0;
   margin-bottom: 100px;
   cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .last-items:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -527,6 +549,9 @@ figure {
   border: 1px solid var(--border-customers);
   border-radius: 4px;
   fill: var(--border-customers);
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers:hover {
   border: 2px solid var(--brand-color);
@@ -545,11 +570,17 @@ figure {
   cursor: pointer;
   margin-right: 10px;
   margin-top: 5px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone {
   fill: var(--border-customers);
   cursor: pointer;
   margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links:hover > .envelope {
   fill: var(--brand-color);
@@ -561,7 +592,6 @@ figure {
   fill: var(--border-customers);
   margin: 12px;
 }
-
 .social-circles-bottom {
   fill: var(--white);
   margin: 12px;
@@ -570,6 +600,9 @@ figure {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .circle:hover,
 .circle:focus {
@@ -583,6 +616,9 @@ figure {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .circle-bottom:hover,
 .circle-bottom:focus {
@@ -643,7 +679,7 @@ figure {
   position: absolute;
   bottom: 0px;
   transform: translateY(100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay > p {
   width: 301px;
